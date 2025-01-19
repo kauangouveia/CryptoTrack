@@ -1,4 +1,4 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
-# Deixe vazio ou remova comandos inválidos
+# Adicione aqui comandos específicos de pré-commit (opcional)
+npm run lint || exit 1
